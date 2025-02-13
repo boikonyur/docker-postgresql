@@ -2,7 +2,7 @@ PostgreSQL:
   restart: always
   image: sameersbn/postgresql:15-20230628
   ports:
-    - "5432:5432"
+    - "6000:6000"
   environment:
     - DEBUG=false
 

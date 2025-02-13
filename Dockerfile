@@ -42,7 +42,7 @@ COPY entrypoint.sh /sbin/entrypoint.sh
 
 RUN chmod 755 /sbin/entrypoint.sh
 
-EXPOSE 5432/tcp
+EXPOSE 6000/tcp
 
 WORKDIR ${PG_HOME}
 
